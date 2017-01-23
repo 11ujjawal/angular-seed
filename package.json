@@ -1,0 +1,49 @@
+{
+    "name": "angular-seed",
+    "version": "0.1.0",
+    "description": "Angular Seed Project",
+    "main": "webpack.config.babel.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.babel.js",
+        "dev": "webpack-dev-server --devtool eval --config webpack.config.babel.js --progress --color --hot --content-base build"
+    },
+    "engines": {
+        "node": "^4.6.0",
+        "npm": "^2.15.9"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/11ujjawal/angular-seed.git"
+    },
+    "keywords": [
+        "angular",
+        "babel",
+        "es6",
+        "webpack",
+        "spa"
+    ],
+    "author": "Ujjawal <11.ujjawal@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-core": "^6.22.1",
+        "babel-loader": "^6.2.10",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-register": "^6.22.0",
+        "css-loader": "^0.26.1",
+        "extract-text-webpack-plugin": "^2.0.0-beta.5",
+        "file-loader": "^0.9.0",
+        "html-loader": "^0.4.4",
+        "html-webpack-plugin": "^2.26.0",
+        "lodash": "^4.17.4",
+        "node-sass": "^4.3.0",
+        "sass-loader": "^4.1.1",
+        "style-loader": "^0.13.1",
+        "webpack": "^2.2.0",
+        "webpack-dev-server": "^1.16.2"
+    },
+    "dependencies": {
+        "angular": "^1.6.1",
+        "jquery": "^3.1.1"
+    }
+}
